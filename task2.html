@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      border: 2px solid black;
+      padding: 20px;
+      width: fit-content;
+      margin-bottom: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .link-box {
+      display: flex;
+      gap: 15px; 
+    
+    }
+
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <div class="box">
+    <p>Lists can be nested (list inside list):</p>
+    <ul>
+      <li>coffee</li>
+      <li>tea
+        <ul>
+          <li>black tea</li>
+          <li>green tea</li>
+        </ul>
+      </li>
+      <li>Milk</li>
+    </ul>
+  </div>
+
+  
+  <div class="box">
+    <p>Click any of the following links:</p>
+    <div class="link-box">
+      <a href="https://example.com" target="_blank">Opens in New</a>
+      <a href="https://example.com" target="_self">Opens in Self</a>
+      <a href="https://example.com" target="_parent">Opens in Parent</a>
+      <a href="https://example.com" target="_top">Opens in Body</a>
+    </div>
+  </div>
+
+</body>
+</html>
